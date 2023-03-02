@@ -23,7 +23,7 @@ class RestaurantSearch extends Restaurants
   
   public function search($params)
     {   
-      $query = Restaurants::find()->where(['rest_verif' => '1'])->with('restaurantCuisine');
+      $query = Restaurants::find()->where(['rest_verif' => '1', 'rest_open' => '1'])->with('restaurantCuisine');
       $countQuery = clone $query;
   
       $dataProvider = new ActiveDataProvider([
