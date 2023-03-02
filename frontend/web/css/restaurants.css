@@ -1,0 +1,540 @@
+/* Страница ресторана */
+#rest {
+margin: 0;
+font-family: "Manrope", sans-serif;
+font-size: 16px;
+}
+
+#rest_title {
+font: normal 30px "Manrope",Helvetica,Verdana;
+color: #44C251;
+padding-top: 11px;
+display: inline-block;
+}
+
+#rest_type {
+font: normal 20px "Manrope",Helvetica,Verdana;
+font-style: italic;
+color: #A2E7A0;
+vertical-align: text-bottom;
+display: inline-block;
+}
+
+.cuisine {
+font: 16px "Manrope",Helvetica,Verdana;
+color: #676767;
+padding: 5px 0px 10px 0px;
+}
+
+/* Раздел описания ресторана */
+.rest_desc {
+font: normal 15px/120% 'Manrope', sans-serif;
+color: #3d3b3b;
+text-align: justify;
+clear: left;
+padding-top: 11px;
+}
+
+.about_rest {
+padding: 5px 10px;
+display: flex;
+flex-flow: wrap;
+}
+
+.list_desc {
+width: 183px;
+min-height: 50px;
+display: inline-block;
+line-height: 1.4;
+text-align: left;
+margin-top: 5px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* Правый столбец с информацией о ресторане */
+#rest_cont {
+float: right;
+padding-top: 30px;
+}
+
+#rest_info {
+width: 320px;
+border: 1px solid #ccc;
+border-radius: 10px;
+float: left;
+vertical-align: top;
+font: 14px "Manrope",Helvetica,Verdana;
+color: #676767;
+line-height: 24px;
+}
+
+.list {
+padding: 5px 10px;
+}
+
+a.schedule_open {
+color: #32cd32;  
+}
+
+a.schedule_close {
+color: #ff4500;  
+}
+
+/* Основной блок с информацией о ресторане */
+.gradient-button-submit {
+  font-size: 1.3em;
+  vertical-align: middle;
+  background: linear-gradient(45deg, #3CB371 20%, #ADFF2F 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  margin: 20px 0px 25px 10px;
+  border: 3px solid transparent;
+  border-image: linear-gradient(45deg, #3CB371 20%, #ADFF2F 70%);
+  border-image-slice: 1;
+}
+
+.rests_block {
+width: 333px;
+float: left;
+margin-top: 30px;
+}
+
+.cover_container {
+ position: relative;
+ width: 100%;
+ height: 300px;
+ display: inline-block;
+ overflow: hidden;
+}
+
+.rests_img {
+padding: 0px;
+margin: 0px;
+padding-right: 10px;
+position: relative;
+display: inline-block;
+}
+
+.rests_info {
+position: relative;
+display: inline-block;
+}
+
+.menu_time_update {
+font-size: .8em;
+color: grey;
+}
+
+#rest_logo {
+padding-top: 20px;
+float: left;
+}
+
+.radius{
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+height: 200px; 
+width: 200px;
+}
+
+.rub {
+font-family: 'PT Sans', sans-serif;  
+}
+
+.list_over {
+padding: 5px 10px;
+color: #12aa66;
+}
+
+#rest_desc{
+float: left;
+}
+
+#banners {
+min-width: 250px;
+width: 250px;
+float: right;
+margin: 0;
+padding: 0;
+}
+
+#rest_info_img {
+width: 80px;
+margin: 20px 10px;
+position: relative;
+display: inline-block;
+}
+
+/* Расписание */
+#sch {
+float: right;
+position: relative;
+display: inline-block;
+vertical-align: top;
+padding: 7px;
+color: #676767;
+border: 1px solid #c7c7c7;
+}
+
+.holiday {
+color: #b80101;
+padding-right: 15px;
+padding-bottom: 5px;
+margin-right: 20px;
+border-right: 1px solid #b80101;
+font: 15px Tahoma;
+background: #ffffff;
+}
+
+.weekdays {
+padding-right: 15px;
+padding-bottom: 5px;
+margin-right: 20px;
+border-right: 1px solid #676767;
+font: 15px Tahoma;
+background: #ffffff;
+}
+
+.svh_input {
+padding: 0px 4px;
+font: normal 18px/120% "Helvetica Neue",Helvetica,Verdana;
+background: #ffffff;
+text-align: right;
+}
+
+/* Раздел фотографий ресторана */
+#rest_photo {
+text-align: center;
+width: 75%;
+}
+
+.tmb {
+padding: 1px;
+}
+
+.auth_com {
+font: normal 16px/120% "Helvetica Neue",Helvetica,Verdana;
+color: #12aa66;
+}
+
+.auth {
+cursor: pointer;
+}
+
+/* Поделиться от Яндекс */
+#share {
+padding: 10px 0;
+}
+
+/* Комментарий и выставление оценок */
+#comment_open {
+padding: 20px 0;
+font: normal 14px/120% "Helvetica Neue",Helvetica,Verdana;
+color: #3d3b3b;
+}
+
+.rating {
+position: relative;
+display: inline;
+}
+
+#rated{
+padding-left: 15px;
+}
+
+#comment_form {
+padding: 15px;
+background-color: #F5F5F5;
+}
+
+#comment_block {
+display: none;
+width: 1000px;
+padding: 5px 10px;
+}
+
+.text {
+font: normal 15px/120% "Manrope",Helvetica,Verdana;
+padding: 10px 0;
+}
+
+#comment_block {
+padding: 5px 0 10px 0;
+}
+
+#comment {
+color: #005500;
+width: 95%;
+padding: 5px 10px;
+}
+
+/* Страница перечня ресторанов */
+/* Поиск */
+.container .search {
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.basic-search .input-field {
+  width:100%;
+  position:relative;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.basic-search .input-field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #ccc;
+  display: block;
+  font: normal 18px "Manrope",Helvetica,Verdana;
+  padding: 10px 32px 10px 60px;
+  color: #666;
+  border-radius: 12px;
+  margin: 15px 0px 15px 0px;
+}
+
+.basic-search .input-field input.placeholder {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.basic-search .input-field input:-moz-placeholder {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.basic-search .input-field input::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.basic-search .input-field input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+.basic-search .input-field .btn-search {
+  width: 70px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  align-items: center;
+}
+
+.basic-search .input-field .btn-search svg {
+  fill: #ccc;
+  width: 30px;
+  height: 30px;
+  transition: all .2s ease-out, color .2s ease-out;
+}
+
+.basic-search .input-field .btn-search:hover, .btn-search:focus{
+  outline:0;
+  box-shadow:none;
+}
+
+.basic-search .input-field .btn-search:hover svg, .input-field .btn-search:focus svg{
+  fill: #666;
+}
+
+.advance-search {
+  background: #fff;
+  padding: 0px 15px 15px 15px;
+  display: none;
+  font: normal 12px "Manrope",Helvetica,Verdana;
+}
+
+.advance-search .desc {
+  font-size: 18px;
+  font-weight: 600;
+  color: #555;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.advance-search .row.first {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: space-between;
+      align-items: space-between;
+  margin-bottom: 10px;
+}
+
+.advance-search .row.first .input-field {
+  width: 23%;
+}
+
+.advance-search .row.second {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: start;
+  -ms-flex-align: start;
+      align-items: start;
+  font-size: 10px;
+}
+
+.advance-search .row.second.line .input-field {
+  width: 30%;
+}
+
+.advance-search .row.third {
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.advance-search .row.third .input-field {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.advance-search .row.third .input-field .result-count {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 110px;
+  color: #999;
+  font-size: 14px;
+}
+
+.advance-search .row.third .input-field .result-count span {
+  color: #333;
+  padding-right: 5px;
+}
+
+.advance-search .row.third .btn-delete {
+  background: rgba(7,28,71,.06);
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.advance-search .row.third .btn-search {
+  background: rgba(7,28,71,.06);
+  border: 0px;
+  padding: 5px 25px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.advance-search .input-field {
+  width: calc((100% - 40px) / 3);
+}
+
+.advance-search .input-select { 
+display: block; 
+font-size: 16px;
+font-weight: 500; 
+color: #444; 
+line-height: 1.3; 
+padding: .6em 1.4em .5em .8em; width: 100%; 
+max-width: 100%; 
+box-sizing: border-box; 
+margin: 0; 
+border: 1px solid #ccc;
+ box-shadow: 0 1px 0 1px rgba(0,0,0,.04); 
+border-radius: .5em;
+ -moz-appearance: none;
+ -webkit-appearance: none;
+ appearance: none;
+ background-color: #fff; 
+background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg fill='%23999' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z'/%3e%3c/svg%3e"); 
+background-repeat: no-repeat, repeat;
+background-position: right .7em top 50%, 0 0;
+background-size: .65em auto, 100%; 
+} 
+.advance-search .input-select::-ms-expand { display: none; } 
+.advance-search .input-select:hover { border-color: #888; } 
+.advance-search .input-select:focus { border-color: #aaa; 
+ box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+ box-shadow: 0 0 0 3px -moz-mac-focusring; 
+ color: #222;
+ outline: none; 
+} 
+.advance-search .input-select option { font-weight:normal; } 
+ *[dir="rtl"] .advance-search .input-select, :root:lang(ar) .advance-search .input-select, :root:lang(iw) .advance-search .input-select { 
+background-position: left .7em top 50%, 0 0; 
+padding: .6em .8em .5em 1.4em; 
+}
+
+.advance-search .input-field .checkbox_search {
+  margin-left: 15px;
+  border: 1px solid #666;
+}
+
+.advance-search .input-field label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Перечень ресторанов */ 
+.rest_list {
+  position: relative;
+  display: inline-block;
+  width: 333  px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  margin: 10px 15px 10px 0px;
+}
+
+.rest_list a:hover {
+  text-decoration: none;
+}
+
+.rest_list_img {
+  border-radius: 10px 10px 0 0;
+}
+
+.rest_list_name {
+ color: #00a753;
+ font: normal 20px "Manrope",Helvetica,Verdana;
+ padding-left: 15px;
+}
+
+.rest_list_type {
+  color: #a7a7a7;
+}
+
+.rest_list_district {
+  text-decoration: none;
+  padding-left: 15px;
+  color: #333;
+}
